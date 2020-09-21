@@ -1,10 +1,10 @@
 # This workflow builds and pushes the docker image using docker's v2 action
 # to GitHub's Container Registry (ghcr.io)
 name: Docker GHCR CI v2
- on:
-  push:
-    branches:
-      - master
+  on:
+    push:
+      branches:
+        - master
 
 jobs:
   build:
